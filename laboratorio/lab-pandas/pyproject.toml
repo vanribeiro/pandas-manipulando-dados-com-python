@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lab-pandas"
+version = "0.1.0"
+description = ""
+authors = ["Vanessa Ribeiro <vanribeiro.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lab_pandas"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+ipykernel = "^6.24.0"
+requests = "^2.31.0"
+seaborn = "^0.12.2"
+matplotlib = "^3.7.2"
+wordcloud = "^1.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
